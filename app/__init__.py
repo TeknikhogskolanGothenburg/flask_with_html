@@ -5,8 +5,8 @@ from app.persistance.db import init_db
 
 def create_app():
     _app = Flask(__name__)
-    _app.config.from_pyfile('settings.py')
-    init_db(_app)
+    # _app.config.from_pyfile('settings.py')
+    # init_db(_app)
 
     from app.blueprints.open import bp_open
     _app.register_blueprint(bp_open)

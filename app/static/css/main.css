@@ -1,0 +1,9 @@
+h1 {
+    font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    color: pink;
+}
+
+.main-image {
+    height: 150px;
+    width: 150px;
+}
